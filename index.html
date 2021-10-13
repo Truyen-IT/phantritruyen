@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+
+
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stysheet.css">
+    <title>web toán lớp 1</title>
+    <script type="text/javascript" src="ab.js"></script>
+</head>
+
+<body>
+
+    <section id="homepage">
+
+
+        <img src="picture/pic1.png" class="logo">
+        <div class="homepage-text">
+            <h1>GIẢI TOÁN NHANH NHẤT CHỈ TRONG MỘT GIÂY</h1>
+            <P>Giúp các bạn trả lời nhanh các câu hỏi mà không dùng đến máy tính Casio và trang web hoàn toàn miễn phí</P>
+        </div>
+        <img src="picture/lo1.png" class="logo1">
+    </section>
+
+
+    <section id="question">
+
+        <h1 class="question-text ">Join US</h1>
+
+        <button class="conten1"><p id="demo"></p></button>
+
+        <button class="conten2"><a href=" " class="a ">REGISTER</a></button>
+
+        <div class="question-1 ">
+
+            <div class="question-2 ">
+                <h1>Nhập vào 1 số và nhân đôi số lên.</h1>
+                <img src="picture/Capture16.PNG " class="question-3 ">
+                <p>Nhập vào</p>
+                <tr>
+                    <td> Số </td>
+                    <td>
+                        <input type="text " id="input" oninput="calculate()">
+                    </td>
+                </tr>
+                <p id="re">Kết qủa</p>
+
+            </div>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>
+            <div class="question-2 ">
+                <h1>Nhâp vào bán kính hình tròn tính ra chu vi và diện tích.</h1>
+                <img src="picture/Capture16.PNG " class="question-3 ">
+                <p>Nhập vào</p>
+                <tr>
+                    <td>Bán Kính(cm)</td>
+                    <td><input type="text" id="input1" oninput="calculates()"></td>
+                </tr>
+
+                <p id="res">Kết qủa </p>
+                <p id="red">Kết qủa </p>
+
+
+            </div>
+
+            <div class="question-2 ">
+                <h1>Nhập vào số tuổi in ra số ngày bạn đã tồn tại.</h1>
+                <img src="picture/Capture16.PNG " class="question-3 ">
+                <p>Nhập vào</p>
+                <tr>
+                    <td>Tuổi</td>
+                    <td> <input type="text" id="input2" oninput="calculate2()"></td>
+                </tr>
+
+                <p id="req">Kết quả </p>
+            </div>
+
+            <div class="question-2 ">
+                <h1>Nhập vào chiều cao và cân nặng đo độ béo hay gầy.</h1>
+                <img src="picture/Capture16.PNG " class="question-3 ">
+                <p>Nhập vào</p>
+                <tr>
+
+                    <td>Cân Nặng(kg)</td>
+
+                    <td><input type="text " id="input3" oninput="calculate3() "></td>
+                </tr>
+                <tr>
+                    <td>Chiều Cao(m)</td>
+                    <td> <input type="text " id="input4" oninput="calculate3()"></td>
+                </tr>
+
+                <p id="rew">Kết quả </p>
+
+            </div>
+
+            <div class="question-2 ">
+                <h1>Nhập vào năm sinh của mình biết được hệ can chi.</h1>
+                <img src="picture/Capture16.PNG " class="question-3 ">
+                <p>Nhập vào</p>
+                <tr>
+                    <td>Năm sinh</td>
+                    <td><input type="text" id="input5" oninput="calculate4() "></td>
+                </tr>
+
+                <p id="ree">Kết quả </p>
+
+
+            </div>
+        </div>
+
+    </section>
+    <section id="testimonial ">
+        <div class="title-text ">
+
+            <h1 class="question-text ">Feedback</h1>
+
+        </div>
+        <div class="testimonial-row ">
+            <div class="testimonial-col ">
+                <div class="user ">
+                    <img src="picture/pt.jpg" alt=" ">
+                    <div class="user-info ">
+                        <h4>Abbey<i class="bi bi-twitter "></i></h4>
+                        <small>abbey@gmail.com</small>
+                    </div>
+                </div>
+                <p>Tôi trả lời nhanh qua trang web này.Thank you so much</p>
+            </div>
+            <div class="testimonial-col ">
+                <div class="user ">
+                    <img src="picture/pt2.jpg" alt=" ">
+                    <div class="user-info ">
+                        <h4>Bernice<i class="bi bi-twitter "></i></h4>
+                        <small>Bernice@gmail.com</small>
+                    </div>
+                </div>
+                <p>Trang web này có ý nghĩa với tôi rất nhiều</p>
+            </div>
+            <div class="testimonial-col ">
+                <div class="user ">
+                    <img src="picture/pt1.jpg" alt=" ">
+                    <div class="user-info ">
+                        <h4>Calliope:<i class="bi bi-twitter "></i></h4>
+                        <small>callliope@gmail.com</small>
+                    </div>
+                </div>
+                <p>Giúp tôi giải quyết các vấn đề trong cuộc sống</p>
+            </div>
+        </div>
+    </section>
+    <!--footer-->
+    <section id="footer ">
+        <img src="picture/cua.png " class="footer-img ">
+        <div class="title-text ">
+
+            <h1 class="question-text ">Contact Me</h1>
+            <hr class="br ">
+        </div>
+        <div class="footer-row ">
+            <div class="footer-left ">
+                <h1> Giới thieu</h1>
+                <p>Về chúng tôi</p>
+                <p>Hướng dẫn sử dụng</p>
+                <p>Quảng cáo</p>
+                <p>Liên hệ</p>
+
+            </div>
+            <div class="footer-left ">
+                <h1>Chính sách</h1>
+                <p>Điều Khoảng</p>
+                <p>Chính sách bảo mật</p>
+                <p>DMCQ</p>
+
+
+            </div>
+            <div class="footer-left ">
+                <h1> Theo dõi tôi</h1>
+                <p><svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-facebook " viewBox="0 0 16 16 ">
+                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354
+            2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z "/></svg>Facebook</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-youtube " viewBox="0 0 16 16 ">
+                    <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235
+            1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4
+            31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858
+            2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z "/>
+                  </svg></i>youtobe</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-twitter " viewBox="0 0 16 16 ">
+                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0
+            0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344
+            9.344 0 0 0 5.026 15z "/>
+                  </svg>Twiter</p>
+
+
+            </div>
+            <div class="footer-left ">
+                <h1>Contact me</h1>
+                <p>Phan Trí Truyện</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-envelope " viewBox="0 0 16 16 ">
+                    <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1
+            0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z "/>
+                  </svg>phantritruyen1999@gmail.com</p>
+                <p><svg xmlns="http://www.w3.org/2000/svg " width="16 " height="16 " fill="currentColor " class="bi bi-telephone-forward-fill " viewBox="0 0 16 16 ">
+                    <path fill-rule="evenodd " d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905
+            1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zm10.761.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293
+            4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708z "/>
+                  </svg>0839607053</p>
+            </div>
+        </div>
+        <div class="social-link ">
+
+            <p>copyright@2021</p>
+        </div>
+    </section>
+    <audio autoplay loop>
+        <source src="audio/yt1s.com - ĐOẠN TUYỆT NÀNG ĐI Phát Huy T4 Truzg Remix Nhớ Đeo Tai Nghe.mp3">
+    </audio>
+
+</body>
+
+</html>

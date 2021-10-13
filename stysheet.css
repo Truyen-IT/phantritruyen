@@ -1,0 +1,231 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        #homepage {
+            background: linear-gradient( rgba(0, 0, 0, 0.5), #0c0f18), url("picture/homepage.png");
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+        
+        .logo {
+            width: 15%;
+            top: 50px;
+            position: absolute;
+            left: 50px;
+        }
+        
+        .logo1 {
+            width: 10%;
+            top: 490px;
+            position: absolute;
+            right: 530px;
+        }
+        
+        .homepage-text {
+            text-align: center;
+            color: rgb(219, 223, 24);
+            padding-top: 250px;
+        }
+        
+        .homepage-text h1 {
+            font-size: 80px;
+            font-weight: bold;
+        }
+        
+        .homepage-text p {
+            ont-size: 20px;
+            font-style: italic;
+        }
+        /*xong1 phan*/
+        
+        #question {
+            width: 100%;
+            padding-top: 1px;
+            padding-bottom: 100px;
+        }
+        
+        .question-1 {
+            width: 100%;
+            display: flex;
+            margin: auto;
+            flex-wrap: wrap;
+            background-color: rgb(27, 44, 48);
+            justify-content: space-around;
+        }
+        
+        .question-2 {
+            flex-basis: 30%;
+            /*hien thi cac khung hinh so voi kich thuoc chieu rong*/
+            text-align: center;
+            /*chu ben trong khung*/
+            border-radius: 10%;
+            /*bo tron o ben ngoai hinh*/
+            margin: 10px;
+            color: rgb(236, 202, 4);
+            /*mau  ben ngoai hinh*/
+            position: relative;
+            /*dung de dieu chinh ben trong hinh so voi */
+        }
+        
+        .question-text {
+            text-align: center;
+            padding-bottom: 10px;
+            color: red;
+            padding-left: 90px;
+        }
+        
+        .question-3 {
+            border-radius: 90%;
+            width: 30%;
+            /*cac hinh duoc can chinh hinh vuong*/
+        }
+        
+        #testimonial {
+            width: 100%;
+            padding: 20px 0px;
+        }
+        
+        .testimonial-row {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            /*hinh chuyen hang ngang vaf di xuong*/
+        }
+        
+        .testimonial-col {
+            flex-basis: 28%;
+            padding: 10px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            box-shadow: 0 10px 20px 3px #00968814;
+            cursor: pointer;
+            transition: transform .5s;
+        }
+        
+        .testimonial-col p {
+            font-size: 14px;
+        }
+        
+        .user {
+            display: flex;
+            align-items: center;
+            margin: 20px 0;
+        }
+        
+        .user img {
+            width: 40%;
+            margin-right: 20px;
+            border-radius: 3px;
+        }
+        
+        .user-info .bi {
+            margin-left: 10px;
+            font-size: 20px;
+            color: #009688;
+        }
+        
+        .user-info small {
+            color: #009688;
+        }
+        
+        .testimonial-col:hover {
+            transform: translateX(7px);
+        }
+        /*footter*/
+        
+        #footer {
+            padding: 10px 0 20px;
+            background: #efefef;
+            position: relative;
+            width: 100%;
+        }
+        
+        .footer-row {
+            width: 80%;
+            margin: 0 auto;
+            justify-content: space-between;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .footer-right {
+            text-align: right;
+        }
+        
+        .footer-right.footer-left {
+            flex-basis: 45%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        
+        .footer-row h1 {
+            margin: 10px 0;
+        }
+        
+        .footer-row p {
+            line-height: 35px;
+        }
+        
+        .footer-img {
+            max-width: 250px;
+            /*tăng hinh con cua lên*/
+            position: absolute;
+            opacity: 0.2;
+            left: 50%;
+            top: 300%;
+            transform: translate(-50%, -50%);
+        }
+        
+        .social-link .bi {
+            height: 40px;
+            width: 40px;
+            font-size: 20px;
+            line-height: 40px;
+            margin: 40px 5px 0;
+            color: #009688;
+            cursor: pointer;
+            transition: .5s;
+        }
+        
+        .social-link {
+            text-align: center;
+        }
+        
+        .social-link .bi:hover {
+            color: #961100;
+        }
+        
+        .social-link p {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        
+        .footer-left .bi,
+        .footer-right .bi {
+            font-size: 100px;
+            color: #0487d3;
+            margin: 0px 0px 0px 0px;
+        }
+        
+        .br {
+            color: rgb(221, 20, 20);
+            ;
+        }
+        
+        .conten1 {
+            border-radius: 10%;
+            color: #000;
+            left: 10px;
+        }
+        
+        .conten2 {
+            border-radius: 10%;
+            right: 10px;
+            position: absolute;
+        }
